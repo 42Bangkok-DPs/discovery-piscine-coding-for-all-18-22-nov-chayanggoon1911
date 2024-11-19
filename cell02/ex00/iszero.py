@@ -1,6 +1,6 @@
-n = input("Enter a number: ")
+number = input("Enter a number: ")
 try:
-    n = int(n)
+    number = int(number)
     if n== 0:
         print("This number is equal to zero.")
     else:
