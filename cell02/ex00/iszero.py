@@ -1,7 +1,7 @@
 number = input("Enter a number: ")
 try:
     number = int(number)
-    if n== 0:
+    if number == 0:
         print("This number is equal to zero.")
     else:
         print("This number is different from zero.")
