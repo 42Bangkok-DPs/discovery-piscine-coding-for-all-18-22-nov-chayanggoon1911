@@ -1,4 +1,4 @@
-i = 1
+i = 0
 while i <= 10: 
     print(f"Table de {i}: ", end="")
     x = 0
