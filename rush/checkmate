@@ -10,7 +10,7 @@ def checkmate(board):
 
     def is_attacked_by_pawn(board, king_pos):
         r, c = king_pos
-        pawn_attacks = [(r - 1, c - 1), (r - 1, c + 1)]  # Pawns attack diagonally
+        pawn_attacks = [(r - 1, c - 1), (r - 1, c + 1)]  
         for rr, cc in pawn_attacks:
             if 0 <= rr < n and 0 <= cc < n and board[rr][cc] == 'P':
                 return True
